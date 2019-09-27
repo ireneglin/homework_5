@@ -1,0 +1,77 @@
+<!--Create HTML files for each of the 3 required pages:
+a. (3 pts) The home page
+b. (3 pts) The product browsing page that shows the variety of items the store has
+c. (3 pts) The product detail page (pick 1 of the client’s products, and create a
+detail page for just that product. Make sure to show in the detail page the options
+that can be used on that product, i.e. color or size. Note: They do not need to be
+interactive, static HTML and CSS is ok for this assignment)
+2. (3 pts) From the home page, the other 2 pages should be reachable with an <a href=...>
+tag link (within some N number of steps).
+3. (3 pts) Make sure each of the pages renders without error. Use the Developer Tools in
+Chrome to do this, and also use the HTML validator to validate your HTML file.
+4. (3 pts) Indent and comment your code; follow the HTML style guides.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Muddy Paws</title>
+    <meta charset="UTF-8">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+	    <h1><a id="logo" href="index.html">Muddy Paws</a></h1>
+	    <nav id="mainNav">
+	    	<ul>
+		        <li><a class="mainNav" href="index.html">About</a></li>
+		        <li><a href="products.html">Products</a></li>
+		        <li><a href="index.html">Contact</a></li>
+	        </ul>
+	    </nav>
+	    <nav id="secNav">
+	    	<ul>
+		        <li><a href="index.html">Search</a></li>
+		        <li><a href="index.html">Login</a></li>
+		        <li><a href="index.html">Cart</a></li>
+		    </ul>
+	    </nav>
+	</header>
+
+    <div id="splash">
+    	<img src="imgs/homeSplash.png">
+	</div>
+	<div id="new">
+		<div class="individualProduct">
+			<img src="imgs/catBP.png">
+			<h3>Cat Backpack</h3>
+		</div>
+		<div class="individualProduct">
+			<img src="imgs/gpsCollar.png">
+			<h3>GPS Tracker Collar</h3>
+		</div>
+		<div class="individualProduct">
+			<img src="imgs/waterHarness.png">
+			<h3>Water Attachment</h3>
+		</div>
+	</div>
+	<div id="bestsellers">
+		<img src="imgs/bestsellers.png">
+		<h2>Bestsellers</h2>
+		<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor ligula fringilla. Phasellus gravida mi augue mi augue, non porta lectus malesuada aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus metus ullamcorper</p>
+		<button>Shop Bestsellers</button>
+	</div>
+	<div id="story">
+		<img src="imgs/ourStory.png">
+		<h2>Our Story</h2>
+		<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor ligula fringilla. Phasellus gravida mi augue mi augue, non porta lectus malesuada aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus metus ullamcorper</p>
+		<button>Learn More</button>
+	</div>
+
+</body>
+
+</html>

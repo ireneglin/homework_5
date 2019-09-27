@@ -1,0 +1,70 @@
+body {
+	margin: 0px;
+}
+
+header {
+	padding: 30px;
+	text-align: center;
+	background: black;
+	color: white;
+}
+
+a#logo {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 41px;
+	text-decoration: none;
+	width: 33.33%;
+	float: left;
+}
+
+a#mainNav {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 27px;
+	width: 33.33%;
+}
+
+a#secNav {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 41px;
+	text-decoration: none;
+	width: 33.33%;
+	float: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+/* unvisited link */
+nav a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+nav a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
