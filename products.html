@@ -1,39 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>ToDo App</title>
-    <meta charset="UTF-8">
-    <!-- styles -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
-</head>
+	<head>
+	    <title>Muddy Paws</title>
+	    <meta charset="UTF-8">
+	    <!-- styles -->
+	    <link rel="stylesheet" type="text/css" href="flexTest.css">
+	    <!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	</head>
 
-<body>
-	<header>
-	    <h1>My To Do Lists</h1>
-	    <nav>
-	        <a href="index.html">main</a> -
-	        <a href="settings.html">settings</a>
-	        <a href="settings.html">settings</a>
-	    </nav>
-	</header>
+	<body>
 
-    <div id="todo-lists">
-	    <div class="list">
-	       <a href="list.html">Groceries</a>
-	    </div>
+		<!--navigation html-->
+		<header class="headerRow">
+			    <a id="logo" href="index.html">Muddy Paws</a>
+			    <nav class="col-3" id="mainNav">
+			    	<ul id="mainNav">
+				        <li><a href="index.html">About</a></li>
+				        <li><a class="current" href="products.html">Products</a></li>
+				        <li><a href="index.html">Contact</a></li>
+			        </ul>
+			    </nav>
+			    <nav class="col-3" id="secNav">
+			    	<ul id="secNav">
+				        <li id="snItem"><a href="#search"><i class="material-icons">search</i></a></li>
+				        <li id="snItem"><a href="#login"><i class="material-icons">person</i></a></li>
+				        <li id="snItem"><a href="#cart"><i class="material-icons">shopping_cart</i></a></li>
+				    </ul>
+			    </nav>
+		</header>
 
-	    <div class="list">
-	       Homework
-	    </div>
+		<div class="fliter">
+			<h2>Filter</h2>
+			<div class="filterBox">
+			</div>
+		</div>
+		<div class="allProducts">
+			<p>Sort By:</p>
+			<div class="productList">
+				
+			</div>
+		</div>
 
-	    <div class="list">
-	       Random Errands
-	    </div>
-    	<button>Add New List</button>
-	</div>
-
-</body>
+	</body>
 
 </html>

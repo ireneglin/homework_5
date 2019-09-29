@@ -13,76 +13,81 @@ Chrome to do this, and also use the HTML validator to validate your HTML file.
 
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Muddy Paws</title>
-    <meta charset="UTF-8">
-    <!-- styles -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-</head>
+	<head>
+	    <title>Muddy Paws</title>
+	    <meta charset="UTF-8">
+	    <!-- styles -->
+	    <link rel="stylesheet" type="text/css" href="flexTest.css">
+	    <!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	</head>
 
-<body>
-	<header>
-	    <p class="col-3"><a id="logo" href="index.html">Muddy Paws</a></p>
-	    <nav class="col-3" id="mainNav">
-	    	<ul id="mainNav">
-		        <li><a class="mainNav" href="index.html">About</a></li>
-		        <li><a href="products.html">Products</a></li>
-		        <li><a href="index.html">Contact</a></li>
-	        </ul>
-	    </nav>
-	    <nav class="col-3" id="secNav">
-	    	<ul id="secNav">
-		        <li><a href="index.html">Search</a></li>
-		        <li><a href="index.html">Login</a></li>
-		        <li><a href="index.html">Cart</a></li>
-		    </ul>
-	    </nav>
-	</header>
+	<body>
 
-    <div id="splash">
-    	<img id="splash" src="imgs/homeSplash.png">
-	</div>
+		<!--navigation html-->
+		<header class="headerRow">
+			    <a id="logo" href="index.html">Muddy Paws</a>
+			    <nav class="col-3" id="mainNav">
+			    	<ul id="mainNav">
+				        <li><a class="mainNav" href="index.html">About</a></li>
+				        <li><a href="products.html">Products</a></li>
+				        <li><a href="index.html">Contact</a></li>
+			        </ul>
+			    </nav>
+			    <nav class="col-3" id="secNav">
+			    	<ul id="secNav">
+				        <li id="snItem"><a href="#search"><i class="material-icons">search</i></a></li>
+				        <li id="snItem"><a href="#login"><i class="material-icons">person</i></a></li>
+				        <li id="snItem"><a href="#cart"><i class="material-icons">shopping_cart</i></a></li>
+				    </ul>
+			    </nav>
+		</header>
 
-	<div id="new">
-		<div class="individualProduct col-3">
-			<img src="imgs/catBP.png">
-			<h3>Cat Backpack</h3>
+	    <div class="row" id="splash">
+	    	<img id="splash" src="imgs/homeSplash.png">
 		</div>
-		<div class="individualProduct col-3">
-			<img src="imgs/gpsCollar.png">
-			<h3>GPS Tracker Collar</h3>
-		</div>
-		<div class="individualProduct col-3">
-			<img src="imgs/waterHarness.png">
-			<h3>Water Attachment</h3>
-		</div>
-	</div>
 
-	<div class="row" id="bestsellers">
-		<div class="col-2">
-			<img src="imgs/bestsellers.png">
+		<h1>New In</h1>
+		<div class="row" id="new">
+			<div class="individualProduct col-3">
+				<img class="productImg" src="imgs/catBP.png">
+				<h3>Cat Backpack</h3>
+			</div>
+			<div class="individualProduct col-3">
+				<img class="productImg" src="imgs/gpsCollar.png">
+				<h3>GPS Tracker Collar</h3>
+			</div>
+			<div class="individualProduct col-3">
+				<img class="productImg" src="imgs/waterHarness.png">
+				<h3>Water Attachment</h3>
+			</div>
 		</div>
-		<div class="col-2">
-			<h2>Bestsellers</h2>
-			<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor ligula fringilla. Phasellus gravida mi augue mi augue, non porta lectus malesuada aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus metus ullamcorper</p>
-			<button>Shop Bestsellers</button>
-		</div>
-	</div>
 
-	<div class="row" id="story">
-		<div class="col-2">
-			<img src="imgs/bestsellers.png">
+		<div class="row" id="bestsellers">
+			<div class="col-2">
+				<img class="leftImg" src="imgs/bestsellers.png">
+			</div>
+			<div class="col-2 rtxt">
+				<h2>Bestsellers</h2>
+				<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor ligula fringilla. Phasellus gravida mi augue mi augue, non porta lectus malesuada aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus metus ullamcorper</p>
+				<button>Shop Bestsellers</button>
+			</div>
 		</div>
-		<div class="col-2">
-			<h2>Our Story</h2>
-			<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor ligula fringilla. Phasellus gravida mi augue mi augue, non porta lectus malesuada aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus metus ullamcorper</p>
-			<button>Learn More</button>
-		</div>
-	</div>
 
-</body>
+		<div class="row" id="story">
+			<div class="col-2 ltxt">
+				<h2>Our Story</h2>
+				<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor ligula fringilla. Phasellus gravida mi augue mi augue, non porta lectus malesuada aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus metus ullamcorper</p>
+				<button>Learn More</button>
+			</div>
+			<div class="col-2">
+				<img class="rightImg" src="imgs/ourStory.png">
+			</div>
+		</div>
+
+
+	</body>
 
 </html>

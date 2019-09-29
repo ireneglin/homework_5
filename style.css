@@ -2,17 +2,25 @@ body {
 	margin: 0px;
 }
 
+.col-3 {
+	width: 33.33%;
+	float: left;
+}
+
+.col-2 {
+	width: 50%;
+	float: left;
+	display: table;
+	padding: 0px;
+}
+
+/*header styling*/
 header {
 	padding: 30px;
 	text-align: center;
 	background: black;
 	color: white;
 	display: flex;
-}
-
-.col-3 {
-	width: 33.33%;
-	float: left;
 }
 
 p {
@@ -81,6 +89,10 @@ nav a:hover {
   text-decoration: none;
 }
 
+/*end header styling*/
+
+
+/*homepage styling*/
 img.splash {
 	width: 100%;
 }
@@ -89,14 +101,16 @@ img {
 	margin: 0px;
 }
 
-.col-2 {
-	width: 50%;
-	float: left;
-	display: table;
-	padding: 0px;
+div#new {
+	padding-top: 60px;
+	padding-left: 178px;
+	padding-right: 178px;
+	padding-bottom: 60px;
+	vertical-align: center;
 }
 
 div#bestsellers {
 	background-color: #e1e1e1;
 	padding: 0px;
 }
+
