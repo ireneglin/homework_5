@@ -31,29 +31,92 @@
 				    </ul>
 			    </nav>
 		</header>
+
+		<!--<h2 id="filter">Products</h2>-->
+
 		<div class="row">
 			<!--col for filters-->
 			<div class="col-2 filter">
-				<h2>Filter</h2>
 				<div class="filterBox">
+					<h2>Filter</h2>
+					<form action="/action_page.php">
+						<p>Animal</p>
+						<input type="checkbox" name="vehicle1" value="Bike"> Cat<br>
+						<input type="checkbox" name="vehicle2" value="Car"> Dog<br>
+						
+						<p>Size</p>
+						<input type="checkbox" name="vehicle1" value="Bike"> Tiny<br>
+						<input type="checkbox" name="vehicle2" value="Car"> Small<br>
+						<input type="checkbox" name="vehicle1" value="Bike"> Medium<br>
+						<input type="checkbox" name="vehicle2" value="Car"> Large<br>
+						
+						<p>Color</p>
+						<input type="checkbox" name="vehicle1" value="Bike"> Strawberry<br>
+						<input type="checkbox" name="vehicle2" value="Car"> Blackberry<br>
+						<input type="checkbox" name="vehicle1" value="Bike"> Crazyberry<br>
+						<input type="checkbox" name="vehicle2" value="Car"> Fire Orange<br>
+
+						<p>Sort By:</p>
+						<select>
+							<option value="volvo">Bestsellers</option>
+							<option value="saab">Bruno's Favourites</option>
+						</select>
+
+					</form>
 				</div>
 			</div>
 
 			<!--col for product grid-->
-			<div class="col-2 allProducts">
-				<p>Sort By:</p>
-				<div class="row" id="productList">
+			<div class="col-2">
+				<div class="row prow" id="productList">
 					<div class="individualProduct col-3">
-						<img class="productImg" src="imgs/catBP.png">
-						<h3>Cat Backpack</h3>
+						<img class="pImg" src="imgs/catBP.png">
+						<p class="pInfo">Cat Harness</p>
+						<p class="pInfo">$80.00</p>
 					</div>
 					<div class="individualProduct col-3">
-						<img class="productImg" src="imgs/gpsCollar.png">
-						<h3>GPS Tracker Collar</h3>
+						<a href="dogHarness.html"><img class="pImg" src="imgs/dogHarness.png"></a>
+						<a href="dogHarness.html"><p class="pInfo">Dog Harness</p></a>
+						<p class="pInfo">$80.00</p>
 					</div>
 					<div class="individualProduct col-3">
-						<img class="productImg" src="imgs/waterHarness.png">
-						<h3>Water Attachment</h3>
+						<img class="pImg" src="imgs/waterHarness.png">
+						<p class="pInfo">Water Attachment</p>
+						<p class="pInfo">$20.00</p>
+					</div>
+				</div>
+				<div class="row prow" id="productList">
+					<div class="individualProduct col-3">
+						<img class="pImg" src="imgs/catBP.png">
+						<p class="pInfo">Cat Harness</p>
+						<p class="pInfo">$80.00</p>
+					</div>
+					<div class="individualProduct col-3">
+						<img class="pImg" src="imgs/gpsCollar.png">
+						<p class="pInfo">GPS Tracker Collar</p>
+						<p class="pInfo">$120.00</p>
+					</div>
+					<div class="individualProduct col-3">
+						<img class="pImg" src="imgs/waterHarness.png">
+						<p class="pInfo">Water Attachment</p>
+						<p class="pInfo">$20.00</p>
+					</div>
+				</div>
+				<div class="row prow" id="productList">
+					<div class="individualProduct col-3">
+						<img class="pImg" src="imgs/catBP.png">
+						<p class="pInfo">Cat Harness</p>
+						<p class="pInfo">$80.00</p>
+					</div>
+					<div class="individualProduct col-3">
+						<img class="pImg" src="imgs/gpsCollar.png">
+						<p class="pInfo">GPS Tracker Collar</p>
+						<p class="pInfo">$120.00</p>
+					</div>
+					<div class="individualProduct col-3">
+						<img class="pImg" src="imgs/waterHarness.png">
+						<p class="pInfo">Water Attachment</p>
+						<p class="pInfo">$20.00</p>
 					</div>
 				</div>
 			</div>

@@ -1,39 +1,77 @@
+<!--Create HTML files for each of the 3 required pages:
+a. (3 pts) The home page
+b. (3 pts) The product browsing page that shows the variety of items the store has
+c. (3 pts) The product detail page (pick 1 of the client’s products, and create a
+detail page for just that product. Make sure to show in the detail page the options
+that can be used on that product, i.e. color or size. Note: They do not need to be
+interactive, static HTML and CSS is ok for this assignment)
+2. (3 pts) From the home page, the other 2 pages should be reachable with an <a href=...>
+tag link (within some N number of steps).
+3. (3 pts) Make sure each of the pages renders without error. Use the Developer Tools in
+Chrome to do this, and also use the HTML validator to validate your HTML file.
+4. (3 pts) Indent and comment your code; follow the HTML style guides.-->
+
 <!DOCTYPE html>
 <html>
-<head>
-    <title>ToDo App</title>
-    <meta charset="UTF-8">
-    <!-- styles -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
-</head>
+	<head>
+	    <title>Muddy Paws</title>
+	    <meta charset="UTF-8">
+	    <!-- styles -->
+	    <link rel="stylesheet" type="text/css" href="flexTest.css">
+	    <!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	</head>
 
-<body>
-	<header>
-	    <h1>My To Do Lists</h1>
-	    <nav>
-	        <a href="index.html">main</a> -
-	        <a href="settings.html">settings</a>
-	        <a href="settings.html">settings</a>
-	    </nav>
-	</header>
+	<body>
 
-    <div id="todo-lists">
-	    <div class="list">
-	       <a href="list.html">Groceries</a>
-	    </div>
+		<!--navigation html-->
+		<header class="headerRow">
+			    <a id="logo" href="index.html">Muddy Paws</a>
+			    <nav class="col-3" id="mainNav">
+			    	<ul id="mainNav">
+				        <li><a class="mainNav" href="index.html">About</a></li>
+				        <li><a class="current" href="products.html">Products</a></li>
+				        <li><a href="index.html">Contact</a></li>
+			        </ul>
+			    </nav>
+			    <nav class="col-3" id="secNav">
+			    	<ul id="secNav">
+				        <li id="snItem"><a href="#search"><i class="material-icons">search</i></a></li>
+				        <li id="snItem"><a href="#login"><i class="material-icons">person</i></a></li>
+				        <li id="snItem"><a href="#cart"><i class="material-icons">shopping_cart</i></a></li>
+				    </ul>
+			    </nav>
+		</header>
 
-	    <div class="list">
-	       Homework
-	    </div>
+		<div class="row" id="bestsellers">
+			<div class="col-2">
+				<img class="leftImg" src="imgs/main.png">
+			</div>
+			<div class="col-2 rtxt">
+				<h2>Dog Harness</h2>
+				<h4>$80.00</h4>
+				<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor </p>
+				<button>Add to cart</button>
+			</div>
+		</div>
 
-	    <div class="list">
-	       Random Errands
-	    </div>
-    	<button>Add New List</button>
-	</div>
-
-</body>
+		<h1>Frequently bought together</h1>
+		<div class="row" id="new">
+			<div class="individualProduct col-3">
+				<img class="newpImg" src="imgs/catBP.png">
+				<h3>Cat Backpack</h3>
+			</div>
+			<div class="individualProduct col-3">
+				<img class="newpImg" src="imgs/gpsCollar.png">
+				<h3>GPS Tracker Collar</h3>
+			</div>
+			<div class="individualProduct col-3">
+				<img class="newpImg" src="imgs/waterHarness.png">
+				<h3>Water Attachment</h3>
+			</div>
+		</div>
+	</body>
 
 </html>

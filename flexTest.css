@@ -57,6 +57,7 @@ h3 {
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-content: center;
+	margin-top: 75px;
 }
 
 /*header styling*/
@@ -163,7 +164,6 @@ img {
 }
 
 div#new {
-	padding-bottom: 60px;
 	vertical-align: center;
 	margin: 0px 178px 0px;
 	
@@ -180,7 +180,7 @@ div#bestsellers {
 	padding-right: 178px;
 }
 
-.newProductImg {
+.newpImg {
 	max-width: 285px;
 	width: 100%;
 	padding: 5px 30px 0;
@@ -226,12 +226,60 @@ button:hover {
 
 /*------------------------------------
 Products page css*/
-.filter {
-	margin-left: 178px;
-	background-color: black;
-	color: white;
+.sort {
+	display: inline-block;
 }
 
-.allProducts {
-	margin-right: 178px;
+.filterBox {
+	max-width: 150px;
+	background-color: black;
+	color: white;
+	margin-right: auto;
+	padding: 20px 20px 35px;
+	margin-top: 75px;
+	border-radius: 5px;
+}
+
+.pImg {
+	max-width: 200px;
+	width: 100%;
+	padding: 0px 20px;
+}
+
+.pInfo {
+	font-size: 15px;
+	margin-top: auto;
+	padding: 0px 20px;
+}
+
+.pRow {
+	margin-top: 75px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	margin-left: auto;
+}
+
+div.filterBox h2 {
+	margin: 0px;
+}
+
+div.filterBox p {
+	padding-top: 10px;
+}
+
+select {
+	background-color: white;
+}
+
+div#productList a {
+	color: black;
+	text-decoration: none;
+}
+
+h4 {
+	color: #f1f1f1;
+	font-size: 30px;
 }
