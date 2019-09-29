@@ -7,41 +7,53 @@ header {
 	text-align: center;
 	background: black;
 	color: white;
+	display: flex;
+}
+
+.col-3 {
+	width: 33.33%;
+	float: left;
+}
+
+p {
+	margin: 0px;
+	text-align: left;
 }
 
 a#logo {
 	font-family: 'Open Sans';
 	font-style: normal;
-	font-weight: normal;
-	font-size: 30px;
-	line-height: 41px;
+	font-weight: bolder;
+	font-size: 20px;
+	line-height: 27px;
 	text-decoration: none;
-	width: 33.33%;
-	float: left;
 }
 
-a#mainNav {
+nav#mainNav {
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
-	line-height: 27px;
-	width: 33.33%;
+		line-height: 27px;
+	text-decoration: none;
 }
 
-a#secNav {
+nav#secNav {
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: normal;
-	font-size: 30px;
-	line-height: 41px;
+	font-size: 20px;
+		line-height: 27px;
 	text-decoration: none;
-	width: 33.33%;
+}
+
+ul#secNav {
+	text-align: right;
 	float: right;
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row:after header:after {
   content: "";
   display: table;
   clear: both;
@@ -67,4 +79,24 @@ nav a:link, a:visited {
 nav a:hover {
   color: hotpink;
   text-decoration: none;
+}
+
+img.splash {
+	width: 100%;
+}
+
+img {
+	margin: 0px;
+}
+
+.col-2 {
+	width: 50%;
+	float: left;
+	display: table;
+	padding: 0px;
+}
+
+div#bestsellers {
+	background-color: #e1e1e1;
+	padding: 0px;
 }

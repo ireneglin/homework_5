@@ -25,16 +25,16 @@ Chrome to do this, and also use the HTML validator to validate your HTML file.
 
 <body>
 	<header>
-	    <h1><a id="logo" href="index.html">Muddy Paws</a></h1>
-	    <nav id="mainNav">
-	    	<ul>
+	    <p class="col-3"><a id="logo" href="index.html">Muddy Paws</a></p>
+	    <nav class="col-3" id="mainNav">
+	    	<ul id="mainNav">
 		        <li><a class="mainNav" href="index.html">About</a></li>
 		        <li><a href="products.html">Products</a></li>
 		        <li><a href="index.html">Contact</a></li>
 	        </ul>
 	    </nav>
-	    <nav id="secNav">
-	    	<ul>
+	    <nav class="col-3" id="secNav">
+	    	<ul id="secNav">
 		        <li><a href="index.html">Search</a></li>
 		        <li><a href="index.html">Login</a></li>
 		        <li><a href="index.html">Cart</a></li>
@@ -43,33 +43,44 @@ Chrome to do this, and also use the HTML validator to validate your HTML file.
 	</header>
 
     <div id="splash">
-    	<img src="imgs/homeSplash.png">
+    	<img id="splash" src="imgs/homeSplash.png">
 	</div>
+
 	<div id="new">
-		<div class="individualProduct">
+		<div class="individualProduct col-3">
 			<img src="imgs/catBP.png">
 			<h3>Cat Backpack</h3>
 		</div>
-		<div class="individualProduct">
+		<div class="individualProduct col-3">
 			<img src="imgs/gpsCollar.png">
 			<h3>GPS Tracker Collar</h3>
 		</div>
-		<div class="individualProduct">
+		<div class="individualProduct col-3">
 			<img src="imgs/waterHarness.png">
 			<h3>Water Attachment</h3>
 		</div>
 	</div>
-	<div id="bestsellers">
-		<img src="imgs/bestsellers.png">
-		<h2>Bestsellers</h2>
-		<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor ligula fringilla. Phasellus gravida mi augue mi augue, non porta lectus malesuada aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus metus ullamcorper</p>
-		<button>Shop Bestsellers</button>
+
+	<div class="row" id="bestsellers">
+		<div class="col-2">
+			<img src="imgs/bestsellers.png">
+		</div>
+		<div class="col-2">
+			<h2>Bestsellers</h2>
+			<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor ligula fringilla. Phasellus gravida mi augue mi augue, non porta lectus malesuada aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus metus ullamcorper</p>
+			<button>Shop Bestsellers</button>
+		</div>
 	</div>
-	<div id="story">
-		<img src="imgs/ourStory.png">
-		<h2>Our Story</h2>
-		<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor ligula fringilla. Phasellus gravida mi augue mi augue, non porta lectus malesuada aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus metus ullamcorper</p>
-		<button>Learn More</button>
+
+	<div class="row" id="story">
+		<div class="col-2">
+			<img src="imgs/bestsellers.png">
+		</div>
+		<div class="col-2">
+			<h2>Our Story</h2>
+			<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor ligula fringilla. Phasellus gravida mi augue mi augue, non porta lectus malesuada aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus metus ullamcorper</p>
+			<button>Learn More</button>
+		</div>
 	</div>
 
 </body>
