@@ -338,3 +338,52 @@ div.fbtRow h3 {
 	margin: 5px 0;
 }
 
+/*review section of product details page*/
+
+ul#revStars {
+	display: inline-block;
+}
+
+div.userRevs {
+	margin: 0 178px 50px;
+	border-style: solid;
+	border-color: lightgrey;
+	border-radius: 5px;
+}
+
+.revContainer h3, .starContainer p {
+	float: left;
+	margin: 0px;
+}
+
+.revContainer {
+	margin-top: 100px;
+}
+
+.rev, .user {
+	padding: 0px !important;
+}
+
+div.rev h3 {
+	padding: 0px;
+	margin: 5px 0 5px 0;
+}
+
+div.user h3 {
+	padding-left: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+button#rev {
+	margin-top: 20px;
+
+}
+
+div.rev p {
+	max-height: 200px;
+}
+
+div.user img.leftImg {
+	padding: 0 40px 0px 0px;
+}

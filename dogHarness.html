@@ -52,16 +52,16 @@ Chrome to do this, and also use the HTML validator to validate your HTML file.
 			<div class="col-2 rtxt mainInfo">
 				<h2>Dog Harness</h2>
 				<h4>$80.00</h4>
-				<div class="stars">
+				<div class="starContainer">
 					<p>Reviews (12):</p>
-					<ul id="secNav">
+					<ul id="revStars">
 				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
 				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
 				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
 				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
 				        <li id="star"><a href="#search"><i class="material-icons star">star_border</i></a></li>
 				    </ul>
-			    </div>
+				</div>
 				<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor </p><br>
 
 				<div class="color">
@@ -119,8 +119,8 @@ Chrome to do this, and also use the HTML validator to validate your HTML file.
 
 		<!-- review section -->
 		<div class="revContainer">
-			<h3>Reviews:</h3>
-			<ul id="secNav">
+			<h3>Reviews (12):</h3>
+			<ul id="revStars">
 		        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
 		        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
 		        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
@@ -128,14 +128,62 @@ Chrome to do this, and also use the HTML validator to validate your HTML file.
 		        <li id="star"><a href="#search"><i class="material-icons star">star_border</i></a></li>
 		    </ul>
 		</div>
-		
+
 		<div class="userRevs">
-		    <div class="col-2">
-				<img class="leftImg" src="imgs/user1.png">
-			</div>
-			<div class="col-2 rtxt rev">
-				<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor</p>
-			</div>
+			<div class="row">
+			    <div class="col-2 user">
+					<img class="leftImg" src="imgs/user1.png">
+					<h3>User 1</h3>
+				</div>
+				<div class="col-2 rtxt rev">
+					<ul id="revStars">
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star_border</i></a></li>
+				    </ul>
+					<h3>Best Harness EVER but....</h3>
+					<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor</p>
+				</div>
+		    </div>
+
+	    
+		    <div class="row">
+			    <div class="col-2 user">
+					<img class="leftImg" src="imgs/user2.png">
+					<h3>User 2</h3>
+				</div>
+				<div class="col-2 rtxt rev">
+					<ul id="revStars">
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star_border</i></a></li>
+				    </ul>
+					<h3>LOVE IT!</h3>
+					<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor</p>
+				</div>
+		    </div>
+			<div class="row">
+			    <div class="col-2 user">
+					<img class="leftImg" src="imgs/user1.png">
+					<h3>User 3</h3>
+				</div>
+				<div class="col-2 rtxt rev">
+					<ul id="revStars">
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star_border</i></a></li>
+				    </ul>
+					<h3>Great purchase</h3>
+					<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor</p>
+				</div>
+		    </div>
+		    <button id="rev">Write a review</button>
 	    </div>
 	</body>
 
