@@ -9,7 +9,7 @@ p, h3 {
 	font-size: 16px;
 }
 
-h1, h2 {
+h1, h2, h4 {
 	font-family: 'Open Sans';
 	font-style: 100;
 	font-size: 40px;
@@ -279,7 +279,62 @@ div#productList a {
 	text-decoration: none;
 }
 
+/*------------------------------------
+dog harness product details page*/
+
 h4 {
-	color: #f1f1f1;
-	font-size: 30px;
+	color: lightgrey;
+	margin: 0px 0px 15px;
 }
+
+.mainInfo {
+	font-family: 'Open Sans';
+}
+
+.mainInfo h2 {
+	margin-top: 0;
+}
+
+.mainInfo input{
+	vertical-align: middle;
+	display: inline-block !important;
+	position: relative;
+	float: left;
+}
+
+i.star {
+	color: grey;
+}
+
+li#star {
+	padding: 0;
+}
+
+div.size, div.qnty, div.color {
+	padding-top: 10px;
+}
+
+.fbtRow {
+	display: flex;
+	flex-direction: ltr;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-content: center;
+	margin-top: 75px;
+}
+
+img.fbtImg {
+	max-width: 175px;
+	width: 100%;
+}
+
+h3 {
+	padding-left: 178px;
+}
+
+div.fbtRow h3 {
+	padding: 0;
+	font-size: 16px;
+	margin: 5px 0;
+}
+

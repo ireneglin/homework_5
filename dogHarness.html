@@ -45,32 +45,77 @@ Chrome to do this, and also use the HTML validator to validate your HTML file.
 			    </nav>
 		</header>
 
-		<div class="row" id="bestsellers">
+		<div class="row">
 			<div class="col-2">
 				<img class="leftImg" src="imgs/main.png">
 			</div>
-			<div class="col-2 rtxt">
+			<div class="col-2 rtxt mainInfo">
 				<h2>Dog Harness</h2>
 				<h4>$80.00</h4>
-				<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor </p>
+				<div class="stars">
+					<p>Reviews (12):</p>
+					<ul id="secNav">
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
+				        <li id="star"><a href="#search"><i class="material-icons star">star_border</i></a></li>
+				    </ul>
+			    </div>
+				<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor </p><br>
+
+				<div class="color">
+				<label>Color:</label>
+					<select>
+						<option>Strawberry</option>
+						<option>Blackberry</option>
+						<option>Crazyberry</option>
+						<option>Fire Orange</option>
+					</select><br>
+				</div>
+
+				<div class="size">
+				<label>Size:</label>
+					<select>
+						<option>Tiny</option>
+						<option>Small</option>
+						<option>Medium</option>
+						<option>Large</option>
+					</select><br>
+				</div>
+
+				<div class="qnty">
+					<label>Quantity:</label>
+					<select>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+					</select>
+				</div>
 				<button>Add to cart</button>
 			</div>
 		</div>
 
-		<h1>Frequently bought together</h1>
-		<div class="row" id="new">
+		<h3>Frequently bought together</h3>
+		<div class="fbtRow" id="new">
 			<div class="individualProduct col-3">
-				<img class="newpImg" src="imgs/catBP.png">
+				<img class="fbtImg" src="imgs/catBP.png">
 				<h3>Cat Backpack</h3>
 			</div>
 			<div class="individualProduct col-3">
-				<img class="newpImg" src="imgs/gpsCollar.png">
+				<img class="fbtImg" src="imgs/gpsCollar.png">
 				<h3>GPS Tracker Collar</h3>
 			</div>
 			<div class="individualProduct col-3">
-				<img class="newpImg" src="imgs/waterHarness.png">
+				<img class="fbtImg" src="imgs/waterHarness.png">
 				<h3>Water Attachment</h3>
 			</div>
+			<div class="individualProduct col-3">
+				<img class="fbtImg" src="imgs/waterHarness.png">
+				<h3>Water Attachment</h3>
+			</div>
+
 		</div>
 	</body>
 
