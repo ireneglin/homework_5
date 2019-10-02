@@ -38,14 +38,20 @@ Chrome to do this, and also use the HTML validator to validate your HTML file.
 			    </nav>
 			    <nav class="col-3" id="secNav">
 			    	<ul id="secNav">
-				        <li id="snItem"><a href="#search"><i class="material-icons">search</i></a></li>
+				        <li id="snItem"><i class="material-icons">search</i></li>
 				        <li id="snItem"><a href="#login"><i class="material-icons">person</i></a></li>
 				        <li id="snItem"><a href="#cart"><i class="material-icons">shopping_cart</i></a></li>
 				    </ul>
 			    </nav>
 		</header>
 
-		<div class="row">
+		<!--product information html-->
+		<div class="row previewBox">
+			<div>
+				<img class="leftpImg lpitop" src="imgs/preview.png">
+				<img class="leftpImg" src="imgs/preview.png">
+				<img class="leftpImg" src="imgs/preview.png">
+			</div>
 			<div class="col-2">
 				<img class="leftImg" src="imgs/main.png">
 			</div>
@@ -55,17 +61,17 @@ Chrome to do this, and also use the HTML validator to validate your HTML file.
 				<div class="starContainer">
 					<p>Reviews (12):</p>
 					<ul id="revStars">
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star_border</i></a></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star_border</i></li>
 				    </ul>
 				</div>
 				<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor </p><br>
 
 				<div class="color">
-				<label>Color:</label>
+					<label>Color:</label>
 					<select>
 						<option>Strawberry</option>
 						<option>Blackberry</option>
@@ -75,7 +81,7 @@ Chrome to do this, and also use the HTML validator to validate your HTML file.
 				</div>
 
 				<div class="size">
-				<label>Size:</label>
+					<label>Size:</label>
 					<select>
 						<option>Tiny</option>
 						<option>Small</option>
@@ -97,7 +103,7 @@ Chrome to do this, and also use the HTML validator to validate your HTML file.
 			</div>
 		</div>
 
-		<h3>Frequently bought together</h3>
+		<h3 class="productDetails">Frequently bought together</h3>
 		<div class="fbtRow" id="new">
 			<div class="individualProduct col-3">
 				<img class="fbtImg" src="imgs/catBP.png">
@@ -119,14 +125,14 @@ Chrome to do this, and also use the HTML validator to validate your HTML file.
 
 		<!-- review section -->
 		<div class="revContainer">
-			<h3>Reviews (12):</h3>
-			<ul id="revStars">
-		        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-		        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-		        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-		        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-		        <li id="star"><a href="#search"><i class="material-icons star">star_border</i></a></li>
-		    </ul>
+			<h3 class="productDetails">Reviews (12):</h3>
+				<ul id="revStars">
+			        <li id="star"><i class="material-icons star">star</i></li>
+			        <li id="star"><i class="material-icons star">star</i></li>
+			        <li id="star"><i class="material-icons star">star</i></li>
+			        <li id="star"><i class="material-icons star">star</i></li>
+			        <li id="star"><i class="material-icons star">star_border</i></li>
+			    </ul>
 		</div>
 
 		<div class="userRevs">
@@ -137,11 +143,11 @@ Chrome to do this, and also use the HTML validator to validate your HTML file.
 				</div>
 				<div class="col-2 rtxt rev">
 					<ul id="revStars">
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star_border</i></a></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star_border</i></li>
 				    </ul>
 					<h3>Best Harness EVER but....</h3>
 					<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor</p>
@@ -156,11 +162,11 @@ Chrome to do this, and also use the HTML validator to validate your HTML file.
 				</div>
 				<div class="col-2 rtxt rev">
 					<ul id="revStars">
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star_border</i></a></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star_border</i></li>
 				    </ul>
 					<h3>LOVE IT!</h3>
 					<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor</p>
@@ -173,16 +179,22 @@ Chrome to do this, and also use the HTML validator to validate your HTML file.
 				</div>
 				<div class="col-2 rtxt rev">
 					<ul id="revStars">
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star</i></a></li>
-				        <li id="star"><a href="#search"><i class="material-icons star">star_border</i></a></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star</i></li>
+				        <li id="star"><i class="material-icons star">star_border</i></li>
 				    </ul>
 					<h3>Great purchase</h3>
 					<p>Lorem ipsum dolor sit mi augue amet, consectetur adipiscing elit. Nam finibus metus ullamcorper leo condimentum, et mi augue porttitor</p>
 				</div>
 		    </div>
+		    <div class="row">
+					<h3>Show 9 more reviews</h3><br>
+		 	</div>
+		 	<div class="row arrow">
+		 		<i class="material-icons md-48">keyboard_arrow_down</i>
+		 	</div>
 		    <button id="rev">Write a review</button>
 	    </div>
 	</body>
