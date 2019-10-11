@@ -385,3 +385,10 @@ div.arrow {
 i.md-48 {
 	font-size: 48px;
 }
+
+/*------------------------------------
+dog harness product details page*/
+
+a.active {
+	color: #b38b6d;
+}
