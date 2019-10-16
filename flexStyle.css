@@ -336,11 +336,11 @@ div.userRevs {
 	margin-top: 100px;
 }
 
-.rev, .user {
+.rev, .user, .item {
 	padding: 0px !important;
 }
 
-div.rev h3 {
+div.rev h3, div.item h3 {
 	padding: 0px;
 	margin: 5px 0 5px 0;
 }
@@ -387,8 +387,50 @@ i.md-48 {
 }
 
 /*------------------------------------
-dog harness product details page*/
+shopping cart page*/
 
 a.active {
 	color: #b38b6d;
+}
+
+.title {
+	margin-left: 178px;
+}
+
+.subtotalr {
+	float: right;
+}
+
+.subtotal {
+	margin-top: 0px;
+	margin-bottom: 100px;
+	margin-right: 178px;
+}
+
+.allCartItems {
+	width: 800px;
+	margin-right: 300px !important;
+	margin-left: 178px !important;
+	margin-top: 0px;
+}
+
+.scQnty {
+	margin-left: 250px;
+}
+
+div.item p {
+	width: 200px;
+}
+
+button.co {
+	margin-top: 0px;
+}
+
+h4.st {
+	font-size: 25px;
+}
+
+.rtxt {
+	max-width: 500px;
+	padding: 0px 60px 60px 0;
 }
