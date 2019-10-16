@@ -336,7 +336,7 @@ div.userRevs {
 	margin-top: 100px;
 }
 
-.rev, .user, .item {
+.rev, .user, .item, .itemCheckoutPreview {
 	padding: 0px !important;
 }
 
@@ -345,7 +345,7 @@ div.rev h3, div.item h3 {
 	margin: 5px 0 5px 0;
 }
 
-div.user h3 {
+div.user h3, .itemCheckoutPreview h3 {
 	padding-left: 0px;
 	margin: 0px;
 	text-align: center;
@@ -360,7 +360,7 @@ div.rev p {
 	max-height: 200px;
 }
 
-div.user img.leftImg {
+div.user img.leftImg, .itemCheckoutPreview img.leftImg {
 	padding: 0 40px 0px 0px;
 }
 
@@ -418,12 +418,20 @@ a.active {
 	margin-left: 250px;
 }
 
+.scQnty h3 {
+	margin: 0px;
+}
+
 div.item p {
 	width: 200px;
 }
 
-button.co {
+.checkoutButton {
 	margin-top: 0px;
+}
+
+#secCheckoutButton {
+	margin-right: 178px;
 }
 
 h4.st {
@@ -433,4 +441,17 @@ h4.st {
 .rtxt {
 	max-width: 500px;
 	padding: 0px 60px 60px 0;
+}
+
+.shoppingCartTxt {
+	font-size: 12px;
+}
+
+#rightShoppingCartTxt {
+	text-align: right;
+
+}
+
+.shoppingCartPrice {
+	padding: 0;
 }
